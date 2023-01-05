@@ -29,7 +29,7 @@ function CardHolder() {
             {
                 loader && (<Loading/>)
             }
-            <div className='bg-white text-black flex p-2 mr-5 items-center'>
+            <div className='bg-white text-black flex p-2 md:mr-5 items-center'>
                 <input placeholder='name' className='bg-gray-500 text-white p-2 rounded-lg ' />
                 <AiOutlineSearch size={30} className='ml-1' />
             </div>

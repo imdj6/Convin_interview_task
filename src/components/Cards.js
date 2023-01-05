@@ -5,7 +5,7 @@ function Cards(props) {
     const [modal,setModal]=useState(false);
     const [id,setId]=useState(props.id);
     return (
-        <div className='bg-gray-500 text-white w-52 flex flex-col border border-black rounded-2xl'>
+        <div className='bg-gray-500 text-white w-40 md:w-52 flex flex-col border border-black rounded-2xl'>
             {
                 modal && (
                     <Modal>

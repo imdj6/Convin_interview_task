@@ -21,8 +21,6 @@ function CardHolder() {
         axios.get('https://fakestoreapi.com/products').then((res) => {
             //setted the data into the temporary state
             setProduct(res.data);
-            //disabled the loader
-            setLoader(false);
         })
         axios.get('https://fakestoreapi.com/products/categories').then((res) => {
             //setted the data into the temporary state
@@ -127,6 +125,9 @@ function CardHolder() {
                 <Button active
                     buttonText='ANALYSE' icon={AiFillPieChart}
                     clickHandler={handlechart}
+                    disabled={
+                        !category
+                    }
                 />
             </div>
         </div>

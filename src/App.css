@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.paginationBttns{
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBttns a{
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #15074E;
+  color: #15074E;
+  cursor: pointer;
+}
+.paginationBttns a:hover{
+  color: white;
+  background-color: #15074E;
+}
+.paginationActive a{
+  color: white;
+  background-color: #15074E;
+}

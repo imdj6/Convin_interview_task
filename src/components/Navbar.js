@@ -9,13 +9,13 @@ function Navbar() {
             <div className='flex justify-center space-x-2 align-middle items-center'>
                 <div><RxAvatar color='white' size={40} /></div>
                 <div className='flex flex-col'><div className='text-sm '>Danish Jamal</div>
-                    <div className='text-xs text-gray-400'>HR MANAGER</div></div>
+                    <div className='text-xs text-gray-400'>Admin</div></div>
             </div>
             <div className='hidden md:flex space-x-5'>
-                <div> <Button active icon={MdNotificationsActive} buttonText='NOTIFICATION'/></div>
+                <div> <Button active icon={MdNotificationsActive} buttonText='NOTIFICATION' /></div>
                 <div><Button active icon={AiFillSetting} buttonText='Settings' /></div>
-                <div><Button active icon={MdOutlineLogout} 
-                buttonText='Logout'/></div>
+                <div><Button active icon={MdOutlineLogout}
+                    buttonText='Logout' /></div>
             </div>
         </div>
     )
